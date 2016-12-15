@@ -52,3 +52,27 @@ hover-bg .hover-text {
     padding: 30% 0px;
 }
 }
+
+.li_intro_list{
+    float:left;padding-right:27px;
+}
+
+.li_intro_list_first{
+    float:left;list-style: none;padding-right:27px;
+}
+.intro_list {
+    margin-left: 13%;
+}
+
+.my-logo-style{
+    display: block;
+    margin: 0 auto;
+}
+
+.button-to-left{
+    margin-left: 30px;
+}
+@media only screen and (max-width: 954px){.intro_list {margin-left: 19%;}}
+@media only screen and (max-width: 743px){.intro_list {margin-left: 14%;}}
+@media only screen and (max-width: 743px){.intro_list {margin-left: 14%;}}
+@media only screen and (max-width: 600px){.intro_list {visibility: hidden;}}
