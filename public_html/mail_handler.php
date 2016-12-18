@@ -9,8 +9,8 @@ if(isset($_POST['submit'])){
     $subject = $_POST['subject'];
     $phone = $_POST['phone'];
     $message = $_POST['message'];
-    $message = $message." phone: ".$phone."<br>";
-    $message = $message." email: ".$from."<br>";
+    //$message = $message." phone: ".$phone."<br>";
+    //$message = $message." email: ".$from."<br>";
 
 
     if ($_POST['submit']) {
